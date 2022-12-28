@@ -2,7 +2,7 @@
 title: 'MCQs'
 date: 'December 27, 2022'
 excerpt: 'Django is a very powerful, high level Python framework for building web applications'
-cover_image: '/images/posts/img1.jpg'
+cover_image: 'images/posts/img1.jpg'
 category: communication skills
 description: Django is a very powerful, high level Python framework for building web applications
 keywords: hassan ali,khan,rind,balouch
