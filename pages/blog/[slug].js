@@ -34,10 +34,6 @@ export default function PostPage(
             setHasRun(true)
         }
     }, [hasRun])
-
-    useEffect(() => {
-    let postimg = cover_image;
-    })
     return (
         <>
             <Head>
