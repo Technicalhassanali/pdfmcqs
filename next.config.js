@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: "akamai",
-    path: "/images/posts/",
+    path: "",
   },
   basePath: "/nextjs-blog/"
 };
