@@ -5,7 +5,7 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/nextjs-blog/"
+  basePath: "https://technicalhassanali.github.io/nextjs-blog"
 };
 
 module.exports = nextConfig;
