@@ -8,6 +8,7 @@ export default function Document() {
       <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <Script src='/my-script.js'  strategy="afterInteractive"></Script>
       </Head>
       <body>
         <Main />
