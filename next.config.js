@@ -6,6 +6,7 @@ const nextConfig = {
     path: "",
   },
   basePath: '/nextjs-blog',
+  assetPrefix: "/nextjs-blog/public",
 };
 
 module.exports = nextConfig;
