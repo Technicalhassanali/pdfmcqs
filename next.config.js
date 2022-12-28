@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  },
-  basePath: '/nextjs-blog'
+  }
+ // basePath: '/nextjs-blog'
 };
 
 module.exports = nextConfig;
