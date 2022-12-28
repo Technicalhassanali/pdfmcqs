@@ -31,12 +31,13 @@ export default function PostPage(
                     }
                 });
             }
-
-
             setHasRun(true)
         }
     }, [hasRun])
 
+    useEffect(() => {
+    let postimg = cover_image;
+    })
     return (
         <>
             <Head>
@@ -51,7 +52,7 @@ export default function PostPage(
             <div className='card card-page'>
                 <h1 className='post-title'>{title}</h1>
                 <div className='post-date'>Posted on {date} {category}</div>
-                <img src={cover_image} alt='' />
+                <img src={postimg} alt={title} />
                 <div className='post-body'>
                     <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
                 </div>
