@@ -860,7 +860,7 @@ img {
   /* max-width: 768px; */
   max-width: 868px;
   margin: auto;
-  overflow: auto;
+  overflow: none;
   /* padding: 0 1rem; */
   padding: 0.6rem 0.5rem;
 }
@@ -876,6 +876,7 @@ img {
   text-decoration: none;
   font-size: 1.5rem;
   font-family: inherit;
+  width:100%;
 }
 
 .btn:focus {
@@ -884,6 +885,7 @@ img {
 
 .btn:hover {
   transform: scale(0.98);
+  background-color: green;
 }
 
 .btn-back {

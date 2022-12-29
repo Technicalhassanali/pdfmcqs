@@ -11,7 +11,7 @@ import { sortByDate } from '../utils'
 import Script from 'next/script'
 import Header from '../components/Navbar'
 
-export default function Home({ posts }:InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <Head>
@@ -22,12 +22,10 @@ export default function Home({ posts }:InferGetStaticPropsType<typeof getStaticP
         <meta name="author" content="Hassan Ali" />
       </Head>
       <main>
-        <div className='container'>
           <div className='posts'>
-            {posts.map((post, index) => (
-              <Post key={index} post={post} />
-            ))}
-          </div>
+              {posts.map((post, index) => (
+                <Post key={index} post={post} />
+              ))}
         </div>
       </main>
     </>

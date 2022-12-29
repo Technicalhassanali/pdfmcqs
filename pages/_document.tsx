@@ -10,10 +10,12 @@ export default function Document() {
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <meta name="google-site-verification" content="geaRCDdyByPMT22C9bC_Tw-dWmB_fSIyz4h8LLRirks" />
         <Script src='/my-script.js'  strategy="afterInteractive"></Script>
+        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/> */}
       </Head>
       <body>
         <Main />
         <NextScript />
+        {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> */}
       </body>
     </Html>
   )
