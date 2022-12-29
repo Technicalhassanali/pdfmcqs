@@ -9,7 +9,7 @@ function Footer() {
                 <h3>MCQs</h3>
                 <p>Improve your communication skills, IT knowledge, and more with our comprehensive MCQs. Test your understanding of PPSC, data structure, and other subjects with our challenging questions and detailed explanations.</p>
                 <ul className="socials">
-                    <li><Link href="#"><i class="fab fa-facebook-square"></i></Link></li>
+                    <li><Link href="#"><i className="fab fa-facebook-square"></i></Link></li>
                     <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
                     <li><Link href="#"><i className="fa fa-google-plus"></i></Link></li>
                     <li><Link href="#"><i className="fa fa-youtube"></i></Link></li>
@@ -21,8 +21,9 @@ function Footer() {
                 <div className="footer-menu">
                     <ul className="f-menu">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/About">About</Link></li>
-                        <li><Link href="/Contact">Contact</Link></li>
+                        <li><Link href="/about">About</Link></li>
+                        <li><Link href="/contact-us">Contact</Link></li>
+                        <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         <li><Link href="/">Blog</Link></li>
                     </ul>
                 </div>

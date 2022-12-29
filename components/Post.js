@@ -15,7 +15,19 @@ export default function Post({ post }) {
                     <button className='btn'>Read More</button>
                 </Link>
             </div>
-
+            {/* 
+            <div className="col">
+                <div className="card">
+                    <img src={post.frontmatter.cover_image} className="card-img-top" alt={post.frontmatter.title} />
+                    <div className="card-body">
+                        <h3 className="card-title" style={{"fontWeight":"bold"}}>{post.frontmatter.title}</h3>
+                        <p className="card-text">{post.frontmatter.excerpt}</p>
+                    </div>
+                    <Link href={`/blog/${post.slug}`}>
+                    <button type="button" className="btn btn-success" style={{"width":"100%"}}>Read More</button>
+                    </Link>
+                </div>
+            </div> */}
         </>
     )
 }

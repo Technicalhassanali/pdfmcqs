@@ -2,7 +2,7 @@
 title: 'Speaking Skills MCQs With Answers'
 date: 'December 29, 2022'
 excerpt: ''
-cover_image: '/images/posts/speaking-skills-mcqs.'
+cover_image: '/images/posts/speaking-skills-mcqs.png'
 category: communication skills
 description: 
 keywords: Speaking Skills MCQs,speaking skills mcqs with answer,communication skills mcqs,listening skills mcqs,

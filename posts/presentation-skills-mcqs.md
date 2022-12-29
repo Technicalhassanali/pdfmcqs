@@ -1,7 +1,7 @@
 ---
 title: 'Presentation Skills MCQs With Answers'
 date: 'December 27, 2022'
-excerpt: 'Presentation Skills MCQs,presentation skills mcqs with answers ,presentation skills quiz with answers,Technical Writing and Presentation Skills MCQs'
+excerpt: 'Presentation Skills MCQs,presentation skills mcqs with answer'
 cover_image: '/images/posts/presetntation-skills-mcqs.png'
 category: communication skills
 description: Presentation Skills MCQs,presentation skills mcqs with answers ,presentation skills quiz with answers,Technical Writing and Presentation Skills MCQs
