@@ -15,10 +15,11 @@ export default function Home({ posts }:InferGetStaticPropsType<typeof getStaticP
   return (
     <>
       <Head>
-        <title>NextJS Blog</title>
+        <title>pdfmcqs.com</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Hassan Ali" />
-        <meta name="keywords" content="Hassan Ali" />
+        <meta name="description" content="pdfmcqs.com is provide you the latest mcqs,communication skills mcqs,reading skills mcqs,speaking skills mcqs" />
+        <meta name="keywords" content="communication skills mcqs,speaking skills mcqs,reading skills mcqs,pdfmcqs.com,presentation skills mcqs" />
+        <meta name="author" content="Hassan Ali" />
       </Head>
       <main>
         <div className='container'>
